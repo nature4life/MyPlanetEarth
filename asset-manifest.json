@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MyPlanetEarth/static/css/main.073c9b0a.css",
+    "main.js": "/MyPlanetEarth/static/js/main.2c622ff6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MyPlanetEarth/static/js/787.28cb0dcd.chunk.js",
+    "static/media/clouds.png": "/MyPlanetEarth/static/media/clouds.67a542cb789140671d24.png",
+    "static/media/logo.svg": "/MyPlanetEarth/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MyPlanetEarth/index.html",
+    "main.073c9b0a.css.map": "/MyPlanetEarth/static/css/main.073c9b0a.css.map",
+    "main.2c622ff6.js.map": "/MyPlanetEarth/static/js/main.2c622ff6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MyPlanetEarth/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2c622ff6.js"
+  ]
+}
