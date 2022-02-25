@@ -3,6 +3,8 @@ import Globe from 'react-globe.gl';
 import * as THREE from 'three';
 import { useEffect, useRef } from  'react';
 import clouds from'./clouds.png';
+import nightsky from'./night-sky.png';
+
 
 
 export function IntroGlobe() {
@@ -50,7 +52,8 @@ export function IntroGlobe() {
     <Globe
     ref={globeEl}
     animateIn={false}
-    backgroundImageUrl = "https://unpkg.com/three-globe@2.23.4/example/img/night-sky.png" 
+    // backgroundImageUrl = "https://unpkg.com/three-globe@2.23.4/example/img/night-sky.png" 
+    backgroundImageUrl = {nightsky}
     globeImageUrl= {currentTime < 18 ? "https://unpkg.com/three-globe@2.23.4/example/img/earth-night.jpg" :"https://unpkg.com/three-globe@2.23.4/example/img/earth-blue-marble.jpg"}
     bumpImageUrl="https://unpkg.com/three-globe@2.23.4/example/img/earth-topology.png"
   />
